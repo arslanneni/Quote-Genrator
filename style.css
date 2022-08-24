@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: url(books.webp) no-repeat center center/ cover;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Uchen', serif;
+
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+}
+.Heading{
+    width: 250px;
+    height: 70px;
+    background-color:black;
+    overflow: hidden;
+    margin-left: 130px;
+    color: white;
+}
+.Box{
+    width: 500px;
+    height: 240px;
+    background-color:white;
+    text-align: center;
+    margin-top: 20px
+}
+button.btn-next {
+    margin-top: 100px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#author{
+    color: blue;
+    font-size: 1.5rem;
+}
